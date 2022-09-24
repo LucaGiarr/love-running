@@ -117,14 +117,14 @@ body{
   padding-top: 30px;
   width: 33%;
   float: left;
-  background-color: blue;
+  background-color: lightblue;
 }
 
 #right-about{
   padding-top: 30px;
   width: 33%;
   float: right;
-  background-color: green;
+  background-color: lightgreen;
 }
 
 #center-about{
@@ -132,3 +132,33 @@ body{
   margin: 0 auto;
   background-color: red;
 }
+
+hr{
+  border-top: 1px solid #3a3a3a;
+  width: 100%;
+  margin: 5px 0;
+}
+
+.left-about-heading, .right-about-heading{
+  width: 60%;
+  line-height: 20px;
+  clear: both;
+  margin-bottom: 50px;
+}
+.left-about-heading{
+  float: right;
+}
+
+.left-about-heading h2, .left-about-heading p{
+  text-align: left;
+}
+
+.right-about-heading{
+  float: left;
+}
+
+.right-about-heading h2, .right-about-heading p{
+  text-align: right;
+}
+
+
