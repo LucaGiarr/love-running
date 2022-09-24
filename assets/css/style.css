@@ -17,6 +17,7 @@ h1, h2{
 #logo{
   float: left;
   font-size: 280%;
+  margin-left: 30px;
 }
 
 /* navigation link */
@@ -105,4 +106,29 @@ body{
   position: absolute;
   bottom: 30px;
   right: 150px;
+}
+
+/* club-ethos */
+#club-ethos{
+  height: 600px;
+}
+
+#left-about{
+  padding-top: 30px;
+  width: 33%;
+  float: left;
+  background-color: blue;
+}
+
+#right-about{
+  padding-top: 30px;
+  width: 33%;
+  float: right;
+  background-color: green;
+}
+
+#center-about{
+  padding-top: 30px;
+  margin: 0 auto;
+  background-color: red;
 }
