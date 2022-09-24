@@ -55,11 +55,13 @@ body{
   color: #3a3a3a;
 }
 
-/* hero-image */
+/* hero-image and cover text*/
 #hero-outer{
   height: 600px;
   width: 100vw; /*should be 100%*/
   overflow: scroll; /*should be hidden*/
+
+  position: relative;
 }
 #hero-image{
   height: 600px;
@@ -80,4 +82,27 @@ body{
   to{
     transform: scale(1.1);
   }
+}
+
+#cover-text, #cover-text h2{
+  color: #fff;
+}
+
+#cover-text{
+  font-size: 130%;
+  font-family: Oswald, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+
+  width: 300px;
+  height: 200px;
+
+  padding-top: 40px;
+  padding-left: 10px;
+
+  background-color: rgba(241, 109,107, .7);
+
+  position: absolute;
+  bottom: 30px;
+  right: 150px;
 }
