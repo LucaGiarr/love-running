@@ -54,3 +54,30 @@ body{
   font-weight: 300;
   color: #3a3a3a;
 }
+
+/* hero-image */
+#hero-outer{
+  height: 600px;
+  width: 100vw; /*should be 100%*/
+  overflow: scroll; /*should be hidden*/
+}
+#hero-image{
+  height: 600px;
+  width: 100vw; /*should be 100%*/
+  background: url(../images/hero-image.webp) no-repeat center center;
+
+  /* animates zoom effect on page loading */
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+/* creates the animation of the hero image */
+@keyframes hero-zoom{
+  from{
+    transform: scale(1);
+  }
+  to{
+    transform: scale(1.1);
+  }
+}
