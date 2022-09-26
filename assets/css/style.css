@@ -229,3 +229,15 @@ footer i{
   padding: 5%;
   color: #3a3a3a;
 }
+
+/* gallery page */
+#photos{
+  clear: both; /* so that the photos display underneath the header */
+  line-height: 0; /* so that the photos do not have any gap between them vertically */
+  column-count: 4;
+  column-gap: 0; /* so that the photos do not have any gap between them horizonytally */
+}
+
+#photos > img{
+  width: 100%;
+}
